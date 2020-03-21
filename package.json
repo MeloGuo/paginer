@@ -1,0 +1,32 @@
+{
+  "name": "paginer",
+  "version": "0.0.1",
+  "description": "probably the best pagination component for wechat mini program",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeloGuo/paginer.git"
+  },
+  "keywords": [
+    "pagination",
+    "wechat",
+    "miniprogram"
+  ],
+  "author": "MeloGuo <guoziliang199606@gmail.com> (https://meloguo.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeloGuo/paginer/issues"
+  },
+  "homepage": "https://github.com/MeloGuo/paginer#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "3.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
