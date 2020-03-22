@@ -2,10 +2,13 @@
   "name": "paginer",
   "version": "0.0.1",
   "description": "probably the best pagination component for wechat mini program",
-  "main": "src/index.js",
+  "main": "miniprogram_dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp --mode=development",
+    "build": "gulp --mode=production",
+    "test": "standard"
   },
+  "miniprogram": "dist",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MeloGuo/paginer.git"
@@ -22,7 +25,14 @@
   },
   "homepage": "https://github.com/MeloGuo/paginer#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "3.1.0"
+    "commander": "5.0.0",
+    "cz-conventional-changelog": "3.1.0",
+    "gulp-clean": "0.4.0",
+    "gulp-typescript": "6.0.0-alpha.1",
+    "standard": "14.3.3",
+    "typescript": "3.8.3",
+    "gulp": "4.0.2",
+    "miniprogram-api-typings": "2.10.2-1"
   },
   "config": {
     "commitizen": {
