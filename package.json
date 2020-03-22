@@ -27,12 +27,13 @@
   "devDependencies": {
     "commander": "5.0.0",
     "cz-conventional-changelog": "3.1.0",
+    "gulp": "4.0.2",
     "gulp-clean": "0.4.0",
     "gulp-typescript": "6.0.0-alpha.1",
+    "miniprogram-api-typings": "2.10.2-1",
+    "miniprogram-simulate": "1.1.5",
     "standard": "14.3.3",
-    "typescript": "3.8.3",
-    "gulp": "4.0.2",
-    "miniprogram-api-typings": "2.10.2-1"
+    "typescript": "3.8.3"
   },
   "config": {
     "commitizen": {
